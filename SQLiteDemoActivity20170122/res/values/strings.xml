@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SQLiteDemoActivity!</string>
+    <string name="app_name">食譜</string>
+    	<string name="SpinnerDemo">SpinnerDemo</string>
+    	<string-array name="lunch">
+        	<item>魚肉</item>
+        	<item>海鮮</item>
+        	<item>肉類</item>
+        	<item>蔬菜</item>
+        	<item>豆類製品</item>
+        	<item>蛋類</item>	
+			<item>加工產品</item>
+    	</string-array>
+</resources>

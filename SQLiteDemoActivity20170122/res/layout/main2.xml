@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Spinner
+        android:id="@+id/mainlist1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/IngredientYES"
+        android:prompt="@string/SpinnerDemo" />
+
+    <Button
+        android:id="@+id/IngredientYES"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="輸入"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/IngredientYES"
+        android:layout_alignBottom="@+id/IngredientYES"
+        android:layout_alignParentRight="true"
+        android:text="目路"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/mainlist2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/mainlist1"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/mainlist1" />
+
+    <Spinner
+        android:id="@+id/mainlist3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/mainlist2"
+        android:layout_toRightOf="@+id/IngredientYES" />
+
+    <TextView
+        android:id="@+id/main2textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/mainlist1"
+        android:layout_alignLeft="@+id/main2textView2"
+        android:layout_marginBottom="18dp"
+        android:text="種類"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/main2textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/mainlist3"
+        android:layout_marginTop="14dp"
+        android:layout_toLeftOf="@+id/mainlist3"
+        android:text="數量"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/main2textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/main2textView3"
+        android:layout_alignTop="@+id/mainlist2"
+        android:layout_marginTop="16dp"
+        android:text="名稱"
+        android:textSize="20sp" />
+
+</RelativeLayout>
